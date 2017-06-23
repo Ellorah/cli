@@ -312,6 +312,30 @@ cli-engine@3.5.33:
     tar-fs "1.x"
     tmp "0.x"
 
+cli-engine@heroku/cli-engine#normalize-home:
+  version "3.5.33"
+  resolved "https://codeload.github.com/heroku/cli-engine/tar.gz/e310cdc1ef1665af7fd7855de897d1d127a78666"
+  dependencies:
+    cli-engine-command "5.1.5"
+    cli-engine-config "1.3.7"
+    cli-engine-heroku "1.1.1"
+    debug "2.x"
+    filesize "^3.5.10"
+    fs-extra "3.x"
+    klaw-sync "2.x"
+    levenshtein "1.x"
+    lodash.flatten "4.x"
+    lodash.maxby "4.x"
+    lodash.uniqby "4.x"
+    log-chopper "1.0.0"
+    moment "2.x"
+    netrc-parser "2.0.2"
+    node-gyp "3.x"
+    rwlockfile "1.4.2"
+    string "3.x"
+    tar-fs "1.x"
+    tmp "0.x"
+
 cli-width@^2.0.0:
   version "2.1.0"
   resolved "http://cli-npm.heroku.com/cli-width/-/cli-width-2.1.0/b234ca209b29ef66fc518d9b98d5847b00edf00a.tgz#b234ca209b29ef66fc518d9b98d5847b00edf00a"
